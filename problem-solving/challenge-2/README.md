@@ -1,38 +1,38 @@
-# Dice Numbers Calculator
+# Calculadora de números de dados
 
-You will receive three different values as parameters, each value represents a single dice number. Your goal is to calculate the final result for this dices play.
+Você receberá três valores diferentes como parâmetros, cada valor representa um único número de dados. Seu objetivo é calcular o resultado final para este jogo de dados.
 
-If you receive three dices with the same number, you should return the number multiplied by 3. If the result is two numbers equals, you should return the number multiplied by 2. If there are no equal numbers, you should return the biggest of them.
+Se receber três dados com o mesmo número, deve devolver o número multiplicado por 3. Se o resultado for dois números iguais, deve devolver o número multiplicado por 2. Se não houver números iguais, deve devolver o maior deles .
 
-### Input and Output
+### Entrada e saída
 
-Based on the explanation above, you will receive inputs like the examples below:
-
-```
-Example 1:
-- Dice 1: 1
-- Dice 2: 2
-- Dice 3: 3
-
-Example 2:
-- Dice 1: 4
-- Dice 2: 1
-- Dice 3: 4
-
-Example 3:
-- Dice 1: 3
-- Dice 2: 3
-- Dice 3: 3
-```
-
-Based on the examples above, you should return the value that represents the correct number value.
+Com base na explicação acima, você receberá entradas como os exemplos abaixo:
 
 ```
-Example 1: 3
-Example 2: 8
-Example 3: 9
+Exemplo 1:
+- Dados 1: 1
+- Dados 2: 2
+- Dados 3: 3
+
+Exemplo 2:
+- Dados 1: 4
+- Dados 2: 1
+- Dados 3: 4
+
+Exemplo 3:
+- Dados 1: 3
+- Dados 2: 3
+- Dados 3: 3
 ```
 
-The example 1 will return 3 because there are no equal numbers, and 3 is the biggest value. On the example 2 will return 8, because there are two equal dices. And the last example will return 9, because there are three equal dices.
+Com base nos exemplos acima, você deve retornar o valor que representa o valor numérico correto.
 
-Note: You have to be careful with numbers out of a dice range (which is from 1 to 6).
+```
+Exemplo 1: 3
+Exemplo 2: 8
+Exemplo 3: 9
+```
+
+O exemplo 1 retornará 3 porque não há números iguais e 3 é o maior valor. No exemplo 2 retornará 8, pois são dois dados iguais. E o último exemplo retornará 9, porque são três dados iguais.
+
+Nota: Deve-se ter cuidado com os números fora de um intervalo de dados (que é de 1 a 6).

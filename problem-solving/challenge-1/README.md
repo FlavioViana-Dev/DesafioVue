@@ -1,27 +1,27 @@
-# Numbers Fractions Calculator
+# Calculadora de Frações de Números
 
-You will receive an array of numbers, and your challenge is to calculate the fractions of each type of number (positive, negative, and zeros).
+Você receberá uma matriz de números e seu desafio é calcular as frações de cada tipo de número (positivo, negativo e zeros).
 
-### Input and Output
+### Entrada e saída
 
-You will receive an input like the one below:
+Você receberá uma entrada como a abaixo:
 
 ```
 [-4, 3, -9, 0, 4, 1]
 ```
 
-And with this, you should calculate the fractions of each type internally, as mentioned above.
+E com isso, você deve calcular as frações de cada tipo internamente, conforme citado acima.
 
-Your function should return an object like the example below:
+Sua função deve retornar um objeto como o exemplo abaixo:
 
 ```
 {
-    positives: 0.500000,
-    negative: 0.333333,
-    zeros: 0.166667,
+    positivos: 0,500000,
+    negativo: 0,333333,
+    zeros: 0,166667,
 }
 ```
 
-Notice: Remember to be careful with the number precision.
+Aviso: Lembre-se de ter cuidado com a precisão do número.
 
-_Obs: What is a fraction? Fractions represent the parts of a whole or collection of objects. A fraction has two parts. The number on the top of the line is called the numerator. It tells how many equal parts of the whole or collection are taken. In the mentioned example above, positives are 0.5/1 because there are 3 positive numbers on the example, negatives are 0.333333/1 because there are 2 negatives on the example, and zeros are 0.166667 because there is only one zero; if you sum everything, the result will be 1_
+_Obs: O que é fração? As frações representam as partes de um todo ou coleção de objetos. Uma fração tem duas partes. O número no topo da linha é chamado de numerador. Diz quantas partes iguais do todo ou coleção são tomadas. No exemplo mencionado acima, os positivos são 0,5/1 porque há 3 números positivos no exemplo, os negativos são 0,333333/1 porque há 2 negativos no exemplo e os zeros são 0,166667 porque há apenas um zero; se você somar tudo, o resultado será 1_
